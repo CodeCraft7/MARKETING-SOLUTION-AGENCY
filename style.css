@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'AR One Sans', sans-serif;
+}
+:root {
+    --pink: #e914b4;
+    --red: #e91414;
+    --gray: #191919;
+    
+}
+body{
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+
+}
+/* Navbar  */
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+.nav-icon i {
+    color: #fff;
+    
+}
+.logo{
+    font-size: 20px;
+}
+/* Hero section  */
+.hero-section{
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    opacity: 1;
+    background-color: black;
+
+}
+.hero-section h1{
+    font-size: 120px;
+    color: var(--pink);
+    padding: 100px 100px 10px;
+    margin: 10px 100px 10px;   
+}
+.hero-section p{
+    font-size: 30px;
+    color:var(--pink);
+    padding: 30px 100px 10px;
+    margin: 30px 100px 10px;
+}
+.hero-section button{
+    font-size: 30px;
+    background-color: var(--pink);
+    margin: auto;
+    border: 2px solid white;
+}
+/* Card section  */
+.cards-section{
+    /* margin: 30px; */
+    display: flex;
+    /* overflow: scroll ; */
+    flex-direction: column;
+}
+.cards{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.first{
+    border-top: 10px double var(--pink);
+    border-left: 10px double var(--pink);
+    padding: 10px;
+}
+.last{
+    border-bottom: 10px double var(--pink);
+    border-right: 10px double var(--pink);
+    padding: 10px;
+}
+
+.card{
+    background-color: var(--gray);
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 300px;    
+}
+.card i{
+    color: #e914b4;
+}
+.card h1{
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fixed css */
+i {
+    margin: 5px;
+}
+
+i:hover {
+    cursor: pointer;
+    color: var(--pink);
+}
+
+b {
+    color: var(--pink);
+}
+
+.btn {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: black;
+    border: none;
+    font-size: 20px;
+    border: 2px solid var(--pink);
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--pink);
+}
+
+a {
+    padding-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+    color: var(--pink);
+}
+
+.active {
+    color: var(--pink);
+    text-decoration: 3px underline;
+    text-decoration-color: var(--pink);
+}
